@@ -23,7 +23,7 @@ I14,,Vineyard soil,"Petrina, Italy",Large,Mosaic,PRJNA60149,
 YJM1433,YIIc17-E5,Wine,"Sauternes, France",Large,Mosaic,PRJNA189918,[9]
 YJM1332,M1-2,Wine,Italy,Restricted,Wine,PRJNA189896,[9]
 VL3,B6,Commercial wine yeast,-,Restricted,Wine,PRJNA48565,[5]
-VelF,,Ficus carica,"Velanidias, Southern Greece",Restricted,Wine,SRP059414,This study
+VELF,,Ficus carica,"Velanidias, Southern Greece",Restricted,Wine,SRP059414,This study
 AWRI796,Active Dry Wine Yeast,Commercial wine yeast,South Africa,Restricted,Wine,PRJNA48559,[5]
 WE372,,Commercial wine yeast,"Cape Town, South Africa",Restricted,Wine,PRJNA60199,
 ZP1041,,Vineyard soil,"Meda, Guarda, Portugal",Restricted,Wine,SRP059414,This study
@@ -47,13 +47,13 @@ YJM1463,DBVPG1853,White Tecc,Ethiopia,Large,Mosaic,PRJNA189926,[9]
 YJM271,CBS1782,Brewery,-,Large,Mosaic,PRJNA189853,[9]
 EXF7145,,Quercus robur,"Fruska Gora National Park, Novi Sad, Serbia",Large,Mosaic,SRP059414,This study
 PYR4e,,Quercus pubescens,"Agios Ioannis, near Pyrgadikia, Northern Greece",Restricted,Mediterranean oak,SRP059414,This study
-DBQ26,PYR4b1s1,Quercus pubescens,"Halkidiki, Greece",Restricted,Mediterranean oak,PRJEB7601,This study
-OakRom3-2a,,Oak,"near Bucarest, Romania",Restricted,Mediterranean oak,PRJEB7675,This study
-HUN9.1s1,DBS14,Oak (isolate provided by Eladio Barrio),Hungary ,Restricted,Mediterranean oak,PRJEB7601,This study
+DBQ26,PYR4b,Quercus pubescens,"Halkidiki, Greece",Restricted,Mediterranean oak,PRJEB7601,This study
+OakRom3,,Oak,"near Bucarest, Romania",Restricted,Mediterranean oak,PRJEB7675,This study
+HUN9,DBS14,Oak (isolate provided by Eladio Barrio),Hungary ,Restricted,Mediterranean oak,PRJEB7601,This study
 EXF7200,,Quercus robur,"On the road from Durmitor to Niksic (Jasenovo polje), Montenegro",Restricted,Mediterranean oak,SRP059414,This study
 EXF7197,,Quercus robur,"On the road from Durmitor to Niksic (Jasenovo polje), Montenegro",Restricted,Mediterranean oak,SRP059414,This study
 FGXd,,Ficus carica,"Hotel Anixi, Anixi, Southern Greece",Restricted,Mediterranean oak,SRP059414,This study
-DBVPG10100,3.1,Quercus cerris,"Parco del Monte Subasio, Italy",Restricted,Mediterranean oak,PRJEB7601,This study
+DBVPG10100,3-10,Quercus cerris,"Parco del Monte Subasio, Italy",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP541,,Fagus sylvatica,"Adagoi, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP1008,,Quercus faginea,"Eja, Melres, Douro, Portugal",Restricted,Mediterranean oak,SRP059414,This study
 ZP742,,Rotten figs,"Caratão, Abrantes, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
@@ -82,8 +82,8 @@ FostersO,,Commercial brewing strain (ale),-,Restricted,Beer,PRJNA48567,[5]
 YJM1387,NRRL Y-12758,Wine,Japan,Large,Mosaic,PRJNA189907,[9]
 SON4c,,Ficus carica,"Sonim, Portugal",Large,Mosaic,SRP059414,This study
 ZP611,,Quercus robur,"Vancouver, Canada",Large,Mosaic,PRJEB7675,This study
-DBQ22,AN3e1s1,Ficus carica,"Halkidiki, Greece",Large,Mosaic,PRJEB7601,This study
-S288c,,Laboratory strain,"California, USA",Large,Mosaic,Reference,
+DBQ22,AN3e1,Ficus carica,"Halkidiki, Greece",Large,Mosaic,PRJEB7601,This study
+S288Cc,,Laboratory strain,"California, USA",Large,Mosaic,Reference,
 W303,,Laboratory strain,-,Large,Mosaic,SGRP2,[3]
 CLIB324,,Baker's yeast,"Saigon, Vietnam",Large,Mosaic,PRJNA60415,
 YJM1386,NRRL Y-11878,Sugar cane,Jamaica,Large,Mosaic,PRJNA189906,[9]
@@ -99,8 +99,8 @@ YJM1402,NRRL YB-4449,Grape vine slime flux,-,Restricted,North America/Japan,PRJN
 ZP1050,,Quercus ilex,"Vendinha, Reguengos de Monsaraz, Beja, Portugal",Restricted,North America/Japan,PRJEB7675,This study
 ZP530,,Castanea sativa,"Marão, Campeã, Portugal",Restricted,North America/Japan,PRJEB7601,This study
 EXF6780,,Quercus petraea,"Velike Laš?e, Kobila hill, Slovenia",Large,Mosaic,PRJEB7601,This study
-OakArd11-2-2,,Oak,"Ardéche, Lyon, France",Large,Mosaic,PRJEB7675,This study
-OakBor21-1,,Oak,"Bordeaux, France",Large,Mosaic,PRJEB7675,This study
+OakArd11,,Oak,"Ardéche, Lyon, France",Large,Mosaic,PRJEB7675,This study
+OakBor21,,Oak,"Bordeaux, France",Large,Mosaic,PRJEB7675,This study
 T7,T7 Fay,Oak exudate,"Babler State Park, Missouri, USA",Restricted,North America/Japan,PRJNA60387,
 UWOPS83-787.3,,Fruit of Opuntia stricta,Bahamas,Restricted,North America/Japan,SGRP2,[3]
 YJM1338,NRRL Y-963,Sour fig,"Maryland, USA",Large,Mosaic,PRJNA189898,[9]
@@ -139,7 +139,7 @@ ZP784,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",‡,North Ame
 ZP794,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
 YPS1000,,Oak exudate,"New Jersey, USA",Restricted,YPS1000,SRP059414,This study
 UWOPS87-2421,,cladode of Opuntia megacantha,"Maui, Hawaii",Large,Mosaic,SGRP2,[3]
-OakGri7.1,,Oak,"Grinon, Paris, France",Large,Mosaic,PRJEB7675,This study
+OakGri7,,Oak,"Grinon, Paris, France",Large,Mosaic,PRJEB7675,This study
 YJM1342,NRRL Y-12638,Soil,South Africa,Large,Mosaic,PRJNA189900,[9]
 YJSH1,,Bioethanol-producing strain,China,Restricted,Sake/Philippines,PRJNA72403,[10]
 YJM1388,NRRL Y-12769,Fermented tapioca,Malaysia,Restricted,Sake/Philippines,PRJNA189908,[9]
@@ -147,8 +147,8 @@ Kyokai-no.7,K7,Japanese sake brewerie,Japan,Restricted,Sake/Philippines,PRJNA458
 UC5,UCD612,Sene sake,"Kurashi, Japan",Restricted,Sake/Philippines,PRJNA60197,
 Y12,"NRRL Y-12663, CBS400",Fermentation (palm wine),Ivory Coast,Large,Mosaic,SGRP2,[3]
 Y9,NRRL Y-5997,Fermentation (ragi),Indonesia,Restricted,Sake/Philippines,WashU,
-DBS11,AN1f2s1,Ficus carica,"Halkidiki, Greece",Large,Mosaic,PRJEB7601,This study
-DBS12,AN1g2s1,Ficus carica,"Halkidiki, Greece",Large,Mosaic,PRJEB7601,This study
+DBS11,AN1f2,Ficus carica,"Halkidiki, Greece",Large,Mosaic,PRJEB7601,This study
+DBS12,AN1g2,Ficus carica,"Halkidiki, Greece",Large,Mosaic,PRJEB7601,This study
 Y10,NRRL Y-7567,Coconut water,Philippines,Large,Mosaic,PRJNA60201,
 YJM269,,Fermentation (apple juice),Unknown,Large,Mosaic,PRJNA60389,
 YJM1479,NRRL Y-6297,Coconut tuba  (palm wine),Philippines,Restricted,Sake/Philippines,PRJNA189929,[9]
