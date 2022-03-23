@@ -32,13 +32,15 @@ chromosomes = c("I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X","XI"
 ```
 
 ```{r}
+untar("./doi_10.5061_dryad.hm2jf__v1/SNP-alignment-largeDataset+Spar.tgz")  #including this line will make the folder in the same location for everyone
+
 all_chromosomes_set = data.frame() # empty dataframe
 
-for (i in 1:16) { # for each chromosome
+for (i in 1:length(chromosomes)) { # for each chromosome (using length is more "reproducible")
   #we read the fasta file 
   a_chromosome = read.fasta(paste(
-    "doi_10.5061_dryad.hm2jf__v1/SNP-alignment-largeDataset+Spar/SNP-alignment-largeDataset+Spar/chr" # YOU MAY HAVE To ADAPT   THIS PART ACCORDING TO YOUR FILE TOPOLOGY
-    ,chromosomes[i],
+    "./SNP-alignment-largeDataset+Spar/chr"
+    , chromosomes[i],
     "_SNP_scere_largeDataset+Spar.fasta",
     sep = ""), forceDNAtolower = F)
   for (j in 1:10){ # and for the 10 first sequence we add the concatenated sequence as a string in the dataset.
