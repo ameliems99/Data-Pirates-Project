@@ -49,6 +49,25 @@ all_chromosomes_set[i,j] = paste(unlist(a_chromosome[j]), sep = "", collapse = "
 ```
 
 
+# Same code without readfasta
+```{r}
+all_chromosomes_set = data.frame() # empty dataframe
+number_of_imported_strains = 1:10 # not all strain are always imported / you only need to change this vector to import more/different strains
+
+for (i in 1:3) { # for each chromosome
+  
+  bob = read.csv(paste(
+    "doi_10.5061_dryad.hm2jf__v1/SNP-alignment-largeDataset+Spar/SNP-alignment-largeDataset+Spar/chr" # YOU MAY HAVE To ADAPT   THIS PART ACCORDING TO YOUR FILE TOPOLOGY
+    ,chromosomes[i],
+    "_SNP_scere_largeDataset+Spar.fasta",
+    sep = ""), header = F)
+for (j in number_of_imported_strains){
+  all_chromosomes_set[i,j] = bob[j*2,1]
+}
+}
+colnames(all_chromosomes_set) = bob[grep(">",bob[,1]),1][number_of_imported_strains]
+```
+
 
 ```{r}
 # we compare 2 yeast
@@ -84,7 +103,8 @@ length(seq1)
 --> the difference rate often varies between 0.5 and 2%. it varies with the strains compared and with the chromosome, 
 
 ```{r}
-DNA_str_set = DNAStringSet(as.character(all_chromosomes_set[1, 1:10])) # we create a DNAstrset form the sequences we have in the dataframe
+
+DNA_str_set = DNAStringSet(as.character(all_chromosomes_set[1, number_of_imported_strains])) # we create a DNAstrset form the sequences we have in the dataframe
 ```
 
 
@@ -96,8 +116,8 @@ Alignment = muscle::muscle(DNA_str_set, quiet = T)# align the sequences
 DNA_bin = as.DNAbin(Alignment) # create a dnabin from the dna_str_set
 Dist = dist.dna(DNA_bin, model = "K80") # calculate the distance
 Dist_Mat = as.matrix(Dist) # make a distance matrix
-colnames(Dist_Mat) = colnames(all_chromosomes_set)# add rownames and colnames
-rownames(Dist_Mat) = colnames(all_chromosomes_set)
+colnames(Dist_Mat) = colnames(all_chromosomes_set)[number_of_imported_strains]# add rownames and colnames
+rownames(Dist_Mat) = colnames(all_chromosomes_set)[number_of_imported_strains]
 
 Tree<-nj(Dist_Mat)# a tree using neighbourjoining methode
 ```
