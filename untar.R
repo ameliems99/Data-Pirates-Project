@@ -1,1 +1,0 @@
-untar("./doi_10.5061_dryad.hm2jf__v1/Scer_SNP_alignment.tgz")
