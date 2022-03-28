@@ -1,6 +1,10 @@
 # This code will perform a principal component analysis from the csv file containing the concatenated sequences
 
 
+# I AM NOT SURE WHAT IS IN THIS CODE IS ACTUALLY VALID, I ALREADY EMAILED MARIA TO ASK HER WHAT SHE THOUGHT ABOUT IT.
+
+#---------------------------------------------------------------------------------------------------------------
+
 
 Data = read.csv("./ConcatenatedSequences.csv", header = T)
 
@@ -28,17 +32,20 @@ MostFreq = function(x){
 # with the MostFreq function we create ConsSeq: a vector containing the most common nucleotide of each position. 
 ConsSeq = apply(SNP,1, MostFreq )
 
-# In the SNP dataframe, we replace nucleotides indentical to ConsSeq by 0 while the polymorphism are replaced by 1
+
+# In the Binary SNP dataframe, we replace nucleotides indentical to ConsSeq by 0 while the polymorphism are replaced by 1
+BinSNP = data.frame()
+
 for (i in 1:147) {
-  SNP[(SNP[,i] == ConsSeq),i] = 1
-  SNP[(SNP[,i] != 1),i] = 10
+  BinSNP[as.vector(which(SNP[,i] == ConsSeq)),i] = 0
+  BinSNP[as.vector(which(SNP[,i] != ConsSeq)),i] = 1
 }
 
+# we make the PCA
+PCA = princomp(BinSNP, cor = T)
 
-PCA = princomp(SNP[2:10,2:10])
-# meh it's not working
-
+# we pplot the first 2 components
 library(ggplot2)
+qplot(PCA$scores[1,], PCA$scores[2,])
 
-
-qplot(PCA$scores[,1], PCA$scores[,2])
+# TA-DA!!
