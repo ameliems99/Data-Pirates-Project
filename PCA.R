@@ -44,8 +44,18 @@ for (i in 1:147) {
 # we make the PCA
 PCA = princomp(BinSNP, cor = T)
 
+
+
+#----------------------------------------------------------------------------------
+#ACT 2: import strain info
+
+strain_info = read.csv("ordered_strain_info.csv")
+
+
+#-----------------------------------------------------------------------------------
+# Act 3: the plot
 # we pplot the first 2 components
 library(ggplot2)
-qplot(PCA$scores[1,], PCA$scores[2,])
+qplot(PCA$scores[1,], PCA$scores[2,],colour = strain_info$Phylogeny)
 
 # TA-DA!!
