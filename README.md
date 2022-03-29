@@ -18,6 +18,7 @@ In this repository, you can find:
 **Concatenate.sh**: a bash script for submitting the R script used to concatenate the sequences from each chromosome into a single string for each strain.  
 **ConcatenatedSequences.csv**: Contains the concatenated sequences for each strain.   
 **ConcatenatedSequences.zip**: a compressed version of *ConcatenatedSequences.csv*.  
+**ConcatenateScript.R**: this script extracts all the relevant files and concatenates the DNA sequence into a single string for each strain. 
 **Data-Pirates-Project.Rproj**: the R project associated with these codes.  
 **SNP-alignment-largeDataset+Spar.tgz**: a compressed folder containing the raw data. Contains a fasta file for each chromosome with the SNPs for each strain.  
 **Strain_info.csv**: contains information for each yeast strain about substrate of isolation and country of discovery. 
