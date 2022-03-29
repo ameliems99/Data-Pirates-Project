@@ -20,7 +20,7 @@ EC1118,"Prise de Mousse, 59A",Industrial strain isolated from Champagne,France,R
 EC9,,Soil,"Evolution Canyon (valley bottom), Israel",Large,Mosaic,PRJNA73985,[6]
 EXF6719,,Wine must,"Cuber, Slovenia",Restricted,Wine,PRJEB7601,This study
 EXF6761,,Quercus petraea,"Cerkvenjak, Slovenia",Restricted,Wine,PRJEB7601,This study
-EXF6780,,Quercus petraea,"Velike Laš?e, Kobila hill, Slovenia",Large,Mosaic,PRJEB7601,This study
+EXF6780,,Quercus petraea,"Velike La??e, Kobila hill, Slovenia",Large,Mosaic,PRJEB7601,This study
 EXF7145,,Quercus robur,"Fruska Gora National Park, Novi Sad, Serbia",Large,Mosaic,SRP059414,This study
 EXF7179,,Quercus robur,"On the road from Durmitor to Niksic (Jasenovo polje), Montenegro",Restricted,Mediterranean oak,SRP059414,This study
 EXF7200,,Quercus robur,"On the road from Durmitor to Niksic (Jasenovo polje), Montenegro",Restricted,Mediterranean oak,SRP059414,This study
@@ -32,12 +32,12 @@ I14,,Vineyard soil,"Petrina, Italy",Large,Mosaic,PRJNA60149,
 IOC9002,,Commercial wine yeast,-,Restricted,Wine,SRP059414,This study
 JAY291,,Bioethanol-production strain,-,Large,Mosaic,PRJNA32809,[2]
 Kyokai7,K7,Japanese sake brewerie,Japan,Restricted,Sake/Philippines,PRJNA45827,[1]
-L1374,,Wine (must from País variety),"Cauquenes, Chile",Restricted,Wine,SGRP2,[3]
+L1374,,Wine (must from Pa?s variety),"Cauquenes, Chile",Restricted,Wine,SGRP2,[3]
 L1528,,Wine (must from Cabernet variety),"Cauquenes, Chile",Restricted,Wine,SGRP2,[3]
 LalvinQA23,,Commercial wine yeast,Portugal,Restricted,Wine,PRJNA48561,[5]
 M22,,Vineyard,Italy,Restricted,Wine,PRJNA28815,[7]
 MB7c,,Quercus pubescens,"Montbarri, Southern France",Restricted,Mediterranean oak,SRP059414,This study
-OakArd11,,Oak,"Ardéche, Lyon, France",Large,Mosaic,PRJEB7675,This study
+OakArd11,,Oak,"Ard?che, Lyon, France",Large,Mosaic,PRJEB7675,This study
 OakBord21,,Oak,"Bordeaux, France",Large,Mosaic,PRJEB7675,This study
 OakGri7,,Oak,"Grinon, Paris, France",Large,Mosaic,PRJEB7675,This study
 OakRom3,,Oak,"near Bucarest, Romania",Restricted,Mediterranean oak,PRJEB7675,This study
@@ -106,61 +106,63 @@ YPS163,,Quercus rubra,"Pennsylvania, USA",Restricted,North America/Japan,PRJNA28
 ZP1008,,Quercus faginea,"Eja, Melres, Douro, Portugal",Restricted,Mediterranean oak,SRP059414,This study
 ZP1041,,Vineyard soil,"Meda, Guarda, Portugal",Restricted,Wine,SRP059414,This study
 ZP1050,,Quercus ilex,"Vendinha, Reguengos de Monsaraz, Beja, Portugal",Restricted,North America/Japan,PRJEB7675,This study
-ZP530,,Castanea sativa,"Marão, Campeã, Portugal",Restricted,North America/Japan,PRJEB7601,This study
+ZP530,,Castanea sativa,"Mar?o, Campe?, Portugal",Restricted,North America/Japan,PRJEB7601,This study
 ZP541,,Fagus sylvatica,"Adagoi, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP560,,Quercus pyrenaica,"Castelo de Vide, Portugal ",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP561,,Quercus pyrenaica,"Castelo de Vide, Portugal ",‡,Mediterranean oak,PRJEB7601,This study
+ZP561,,Quercus pyrenaica,"Castelo de Vide, Portugal ",?,Mediterranean oak,PRJEB7601,This study
 ZP562,,Quercus ilex,"Castelo de Vide, Portugal ",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP563,,Castanea sativa,"Castelo de Vide, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP564,,Quercus pyrenaica,"Castelo de Vide, Portugal ",‡,Mediterranean oak,PRJEB7601,This study
+ZP564,,Quercus pyrenaica,"Castelo de Vide, Portugal ",?,Mediterranean oak,PRJEB7601,This study
 ZP565,,Castanea sativa,"Castelo de Vide, Portugal ",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP566,,Quercus faginea,"Castelo de Vide, Portugal ",‡,Mediterranean oak,PRJEB7601,This study
-ZP567,,Quercus pyrenaica,"Castelo de Vide, Portugal ",‡,Mediterranean oak,PRJEB7601,This study
+ZP566,,Quercus faginea,"Castelo de Vide, Portugal ",?,Mediterranean oak,PRJEB7601,This study
+ZP567,,Quercus pyrenaica,"Castelo de Vide, Portugal ",?,Mediterranean oak,PRJEB7601,This study
 ZP568,,Quecus pyrenaica,"Castelo de Vide, Portugal ",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP570,,Fraxinus sp.,"Paul Boquilobo, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP575,,Quercus pyrenaica,"Castelo de Vide, Portugal ",‡,Mediterranean oak,PRJEB7601,This study
+ZP575,,Quercus pyrenaica,"Castelo de Vide, Portugal ",?,Mediterranean oak,PRJEB7601,This study
 ZP577,,Quercus faginea,"Aldeia das Dez, Portugal",Restricted,Wine,PRJEB7601,This study
 ZP578,,Quercus faginea,"Aldeia das Dez, Portugal",Restricted,Wine,PRJEB7601,This study
 ZP579,,Quercus pyrenaica,"Aldeia das Dez, Portugal",Restricted,Wine,PRJEB7601,This study
-ZP590,,Quercus pyrenaica,"Castelo de Vide, Portugal ",‡,Mediterranean oak,PRJEB7601,This study
+ZP590,,Quercus pyrenaica,"Castelo de Vide, Portugal ",?,Mediterranean oak,PRJEB7601,This study
 ZP611,,Quercus robur,"Vancouver, Canada",Large,Mosaic,PRJEB7675,This study
 ZP633,,Quercus pyrenaica,"Castelo de Vide, Portugal ",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP636,,Castanea sativa,"Castelo de Vide, Portugal ",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP641,,Spontaneous red wine fermentation,"Castelo de Vide, Portugal ",Restricted,Wine,PRJEB7601,This study
-ZP649,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP650,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP649,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP650,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP651,,Quercus acutissima,"Chiba Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP652,,Quercus acutissima,"Chiba Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP653,,Quercus acutissima,"Chiba Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP654,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP655,,Quercus acuta,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP654,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP655,,Quercus acuta,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP656,,Quercus acuta,"Chiba Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP657,,Quercus acuta,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP658,,Quercus acuta,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP674,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP657,,Quercus acuta,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP658,,Quercus acuta,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP674,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP675,,Quercus acutissima,"Chiba Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP676,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP677,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP678,,Quercus acutissima,"Chiba Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP676,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP677,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP678,,Quercus acutissima,"Chiba Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP680,,Quercus acutissima,"Chiba Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP736,,Rotten figs,"Caratão, Abrantes, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP742,,Rotten figs,"Caratão, Abrantes, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP778,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP736,,Rotten figs,"Carat?o, Abrantes, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
+ZP742,,Rotten figs,"Carat?o, Abrantes, Portugal",Restricted,Mediterranean oak,PRJEB7601,This study
+ZP778,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP779,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP780,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,SRP059414,This study
 ZP781,,Quercus serrata,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP783,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
-ZP784,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP783,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
+ZP784,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP785,,Quercus  dentata,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP786,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP793,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP794,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",‡,North America/Japan,PRJEB7601,This study
+ZP794,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",?,North America/Japan,PRJEB7601,This study
 ZP796,,Quercus dentata,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP817,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
 ZP823,,Quercus acutissima,"Hirusen highland, Okayama Perfecture, Japan",Restricted,North America/Japan,PRJEB7601,This study
-ZP848,,Quercus ilex,"Alter do Chão, Portugal",Restricted,Mediterranean oak,PRJEB7675,This study
+ZP848,,Quercus ilex,"Alter do Ch?o, Portugal",Restricted,Mediterranean oak,PRJEB7675,This study
 ZP850,,Quercus ilex,"Alconorales Natural Park, Andaluzia, Spain",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP851,,Quercus ilex,"Alconorales Natural Park, Andaluzia, Spain",Restricted,Mediterranean oak,PRJEB7675,This study
 ZP860,,Quercus ilex,"Alconorales Natural Park, Andaluzia, Spain",Restricted,Mediterranean oak,PRJEB7601,This study
-ZP861,,Sun-dryed apple with ants ,"Caratão, Abrantes, Portugal",Restricted,Wine,PRJEB7601,This study
-ZP862,,Apple with insect holes,"Caratão, Abrantes, Portugal",Restricted,Wine,PRJEB7601,This study
+ZP861,,Sun-dryed apple with ants ,"Carat?o, Abrantes, Portugal",Restricted,Wine,PRJEB7601,This study
+ZP862,,Apple with insect holes,"Carat?o, Abrantes, Portugal",Restricted,Wine,PRJEB7601,This study
+Spar
+sacCer3
