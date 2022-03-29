@@ -1,7 +1,4 @@
-Info <- read.csv("./ordered_strain_info.csv", header = T)
-str(Info)
-unique(Info$Substrate_of_isolation)
-unique(Info$Geographic_location)
+Info <- read.csv("./ordered_strain_info.csv", header = T) #import file
 
 #Regroup substrate of isolation into categories
 Info$Substrate_of_isolation <- gsub(".*(Wine|wine).*", "Wine", Info$Substrate_of_isolation)
@@ -9,7 +6,13 @@ Info$Substrate_of_isolation <- gsub("(Quercus|Quecus|Oak).*", "Oak", Info$Substr
 Info$Substrate_of_isolation <- gsub(".*(Fermentation|fermentation|Fermented|Brewery|brewing|
                                     brewerie|beer|sake|Bioethanol|bioethanol|Champagne|ethanol).*", 
                                     "Other fermentation", Info$Substrate_of_isolation)
-Info$Substrate_of_isolation <- gsub(".*(Fruit|fruit|Grape|fig|Apple|apple|Vineyard).*", "Fruit", Info$Substrate_of_isolation)
+Info$Substrate_of_isolation <- gsub(".*(Fruit|fruit|Grape|fig|Apple|apple|Vineyard).*", "Fruit", 
+                                    Info$Substrate_of_isolation)
+Info$Substrate_of_isolation <- gsub(".*(palm|Ficus|Opuntia|Fraxinus|Fagus|Castanea).*", "Other tree",
+                                    Info$Substrate_of_isolation)
+Info$Substrate_of_isolation <- gsub(".*(Sugar|Coconut).*", "Other plant material", Info$Substrate_of_isolation)
+Info$Substrate_of_isolation <- gsub(".*[^Wine|Oak|Other fermentation|Fruit|Other tree|Other plant material].*",
+                                    "Other", Info$Substrate_of_isolation)
 
 
 
