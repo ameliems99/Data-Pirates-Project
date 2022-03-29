@@ -15,7 +15,7 @@ DBVPG1106,NCYC3447,Grapes,Australia,Restricted,Wine,SGRP2,[3]
 DBVPG1373,,Soil,Netherlands,Restricted,Wine,SGRP2,[3]
 DBVPG1788,,Soil,Finland,Restricted,Wine,SGRP2,[3]
 DBVPG6044,"Y5, NRRL Y-1546, CBS405",Bili wine from Osbeckia grandiflora,West Africa,Restricted,West Africa,SGRP2,[3]
-DBVPG6765,,-,-,Restricted,Wine,SGRP2,[3]
+DBVPG6765,,Unknown,Unknown,Restricted,Wine,SGRP2,[3]
 EC1118,"Prise de Mousse, 59A",Industrial strain isolated from Champagne,France,Restricted,Wine,PRJEA37863,[8]
 EC9,,Soil,"Evolution Canyon (valley bottom), Israel",Large,Mosaic,PRJNA73985,[6]
 EXF6719,,Wine must,"Cuber, Slovenia",Restricted,Wine,PRJEB7601,This study
@@ -25,12 +25,12 @@ EXF7145,,Quercus robur,"Fruska Gora National Park, Novi Sad, Serbia",Large,Mosai
 EXF7179,,Quercus robur,"On the road from Durmitor to Niksic (Jasenovo polje), Montenegro",Restricted,Mediterranean oak,SRP059414,This study
 EXF7200,,Quercus robur,"On the road from Durmitor to Niksic (Jasenovo polje), Montenegro",Restricted,Mediterranean oak,SRP059414,This study
 FGXd,,Ficus carica,"Hotel Anixi, Anixi, Southern Greece",Restricted,Mediterranean oak,SRP059414,This study
-FostersB,,Commercial brewing strain (ale),-,Restricted,Beer,PRJNA48569,[5]
-FostersO,,Commercial brewing strain (ale),-,Restricted,Beer,PRJNA48567,[5]
+FostersB,,Commercial brewing strain (ale),Unknown,Restricted,Beer,PRJNA48569,[5]
+FostersO,,Commercial brewing strain (ale),Unknown,Restricted,Beer,PRJNA48567,[5]
 HUN9,DBS14,Oak (isolate provided by Eladio Barrio),Hungary ,Restricted,Mediterranean oak,PRJEB7601,This study
 I14,,Vineyard soil,"Petrina, Italy",Large,Mosaic,PRJNA60149,
-IOC9002,,Commercial wine yeast,-,Restricted,Wine,SRP059414,This study
-JAY291,,Bioethanol-production strain,-,Large,Mosaic,PRJNA32809,[2]
+IOC9002,,Commercial wine yeast,Unknown,Restricted,Wine,SRP059414,This study
+JAY291,,Bioethanol-production strain,Unknown,Large,Mosaic,PRJNA32809,[2]
 Kyokai7,K7,Japanese sake brewerie,Japan,Restricted,Sake/Philippines,PRJNA45827,[1]
 L1374,,Wine (must from Pa?s variety),"Cauquenes, Chile",Restricted,Wine,SGRP2,[3]
 L1528,,Wine (must from Cabernet variety),"Cauquenes, Chile",Restricted,Wine,SGRP2,[3]
@@ -59,9 +59,9 @@ UWOPS03461,,Nectar of Bertram palm,Malaysia,Restricted,Malaysia,SGRP2,[3]
 UWOPS83787,,Fruit of Opuntia stricta,Bahamas,Restricted,North America/Japan,SGRP2,[3]
 UWOPS872421,,cladode of Opuntia megacantha,"Maui, Hawaii",Large,Mosaic,SGRP2,[3]
 VELF,,Ficus carica,"Velanidias, Southern Greece",Restricted,Wine,SRP059414,This study
-Vin13,,Commercial wine yeast,-,Restricted,Wine,PRJNA48563,[5]
-VL3,B6,Commercial wine yeast,-,Restricted,Wine,PRJNA48565,[5]
-W303,,Laboratory strain,-,Large,Mosaic,SGRP2,[3]
+Vin13,,Commercial wine yeast,Unknown,Restricted,Wine,PRJNA48563,[5]
+VL3,B6,Commercial wine yeast,Unknown,Restricted,Wine,PRJNA48565,[5]
+W303,,Laboratory strain,Unknown,Large,Mosaic,SGRP2,[3]
 WE372,,Commercial wine yeast,"Cape Town, South Africa",Restricted,Wine,PRJNA60199,
 Y10,NRRL Y-7567,Coconut water,Philippines,Large,Mosaic,PRJNA60201,
 Y12sgrp2,"NRRL Y-12663, CBS400",Fermentation (palm wine),Ivory Coast,Large,Mosaic,SGRP2,[3]
@@ -82,7 +82,7 @@ YJM1387,NRRL Y-12758,Wine,Japan,Large,Mosaic,PRJNA189907,[9]
 YJM1388,NRRL Y-12769,Fermented tapioca,Malaysia,Restricted,Sake/Philippines,PRJNA189908,[9]
 YJM1400,NRRL YB-4081,Guava (fruit),Philippines,Restricted,Sake/Philippines,PRJNA189911,[9]
 YJM1401,NRRL YB-4082,Papaya (fruit),Philippines,Restricted,Sake/Philippines,PRJNA189912,[9]
-YJM1402,NRRL YB-4449,Grape vine slime flux,-,Restricted,North America/Japan,PRJNA189913,[9]
+YJM1402,NRRL YB-4449,Grape vine slime flux,Unknown,Restricted,North America/Japan,PRJNA189913,[9]
 YJM1415,NRRL Y-268,Wine,France,Restricted,Wine,PRJNA189914,[9]
 YJM1418,NRRL YB-4506,Quercus variabilis bark,Asia (country unknown),Large,Mosaic,PRJNA189916,[9]
 YJM1433,YIIc17-E5,Wine,"Sauternes, France",Large,Mosaic,PRJNA189918,[9]
@@ -91,11 +91,11 @@ YJM1439,,Ginger beer  from Z. of?cinale,West Africa,Restricted,West Africa,PRJNA
 YJM1447,UWOPS05-227.2,Bertram palm,Malaysia,Restricted,Malaysia,PRJNA189923,[9]
 YJM1463,DBVPG1853,White Tecc,Ethiopia,Large,Mosaic,PRJNA189926,[9]
 YJM1479,NRRL Y-6297,Coconut tuba  (palm wine),Philippines,Restricted,Sake/Philippines,PRJNA189929,[9]
-YJM1574,AWRI1775,Wine,-,Restricted,Wine,PRJNA189934,[9]
+YJM1574,AWRI1775,Wine,Unknown,Restricted,Wine,PRJNA189934,[9]
 YJM195,NCYC762,Palm wine,Nigeria,Restricted,West Africa,PRJNA189849,[9]
 YJM269,,Fermentation (apple juice),Unknown,Large,Mosaic,PRJNA60389,
 YJM270,CBS2807,Wine,Slovenia,Restricted,Wine,PRJNA189852,[9]
-YJM271,CBS1782,Brewery,-,Large,Mosaic,PRJNA189853,[9]
+YJM271,CBS1782,Brewery,Unknown,Large,Mosaic,PRJNA189853,[9]
 YJM975,,Clinical,Italy,Restricted,Wine,SGRP2,[3]
 YJM978,,Clinical,Italy,Restricted,Wine,SGRP2,[3]
 YJSH1,,Bioethanol-producing strain,China,Restricted,Sake/Philippines,PRJNA72403,[10]
@@ -164,5 +164,5 @@ ZP851,,Quercus ilex,"Alconorales Natural Park, Andaluzia, Spain",Restricted,Medi
 ZP860,,Quercus ilex,"Alconorales Natural Park, Andaluzia, Spain",Restricted,Mediterranean oak,PRJEB7601,This study
 ZP861,,Sun-dryed apple with ants ,"Carat?o, Abrantes, Portugal",Restricted,Wine,PRJEB7601,This study
 ZP862,,Apple with insect holes,"Carat?o, Abrantes, Portugal",Restricted,Wine,PRJEB7601,This study
-Spar
-sacCer3
+Spar,,,,,,,
+sacCer3,,,,,,,
