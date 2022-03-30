@@ -1,6 +1,6 @@
 # Data-Pirates-Project
 Here, we plan to analyze the sequences of 146 yeast strains to determine the evolutionary relationship among yeast species used in wine domestication. We will mainly focus on the following questions:  
-1) Are wine yeast species that come from similar regions more closely genetically related?   
+1) Are wine yeast species that come from close geographic locations more closely genetically related?   
 2) Does the oak niche show geographical limitation?   
 3) What are the evolutionary relationships between the different strains of wine yeast?   
   
