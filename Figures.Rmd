@@ -1,0 +1,80 @@
+---
+title: "Figures"
+output: html_document
+---
+Loading Data 
+```{r}
+MyData<-read.csv("ChrISequences.csv")
+str(MyData)
+```
+
+Clean up Data
+```{r}
+MyData$Sequence<-gsub("[^ATCG]", "", MyData$Sequence)
+```
+
+Removing S paradoxus species 
+```{r}
+MyData2 <- MyData[!grepl("Spar", MyData$X),]
+```
+
+Aligning sequences with new data not containing the S paradoxus 
+```{r}
+DataDNAstring<-DNAStringSet(MyData2$Sequence)
+```
+
+```{r}
+names(DataDNAstring)<-paste(1:nrow(MyData2), MyData2$X, sep="_")
+```
+
+```{r}
+DataAlign<-muscle::muscle(stringset = DataDNAstring, quiet = T)
+```
+
+Distance Matrix
+```{r}
+DataAlignBin<-as.DNAbin(DataAlign)
+DataDM<-dist.dna(DataAlignBin, model = "K80")
+```
+
+```{r}
+DataDMmat<-as.matrix(DataDM)
+dim(DataDMmat)
+```
+
+
+```{r}
+DataDat<-melt(DataDMmat)
+dim(DataDat)
+```
+
+```{r}
+library(ggplot2)
+```
+
+Distance Matrix 
+```{r}
+ggplot(data = DataDat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile()+scale_fill_gradientn(colours=c("white","blue","green","red")) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+  xlab("Yeast Strains") + 
+  ylab("Yeast Strains") + 
+  labs(title = "Distance Matrix of Yeast Strains")
+```
+
+```{r}
+library(ggtree)
+```
+
+```{r}
+Tree <- nj(DataDM)
+```
+
+```{r}
+ggtree(Tree, branch.length = "none", layout = "circular") + 
+  labs(title = "Phylogeny of Yeast Strains")
+  
+```
+
+
+
