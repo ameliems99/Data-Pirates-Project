@@ -1,148 +1,148 @@
-"Strain","Other_designations","Substrate_of_isolation","Geographic_location","Dataset","Phylogeny","Genome_data","Reference"
-"3-10","","Oak","Italy","Restricted","Mediterranean oak","PRJEB7601","This study"
-"AN1f2","AN1f2","Other tree","Greece","Large","Mosaic","PRJEB7601","This study"
-"AN1g2","AN1g2","Other tree","Greece","Large","Mosaic","PRJEB7601","This study"
-"AN3e1","AN3e1","Other tree","Greece","Large","Mosaic","PRJEB7601","This study"
-"AWRI1631","N96","Wine","Australia","Restricted","Wine","PRJNA30553","[4]"
-"AWRI796","Active Dry Wine Yeast","Wine","South Africa","Restricted","Wine","PRJNA48559","[5]"
-"BC187","UC10, UCD2120","Other fermentation","USA","Restricted","Wine","SGRP2","[3]"
-"CBS7960","DBVPG7960","Other fermentation","Brazil","Restricted","Wine","PRJNA60391",""
-"CLIB215","","Other","New Zealand","Restricted","Wine","PRJNA60143",""
-"CLIB324","","Other","Vietnam","Large","Mosaic","PRJNA60415",""
-"DAV1e","","Oak","UK","Restricted","Wine","SRP059414","This study"
-"DBVPG1106","NCYC3447","Fruit","Australia","Restricted","Wine","SGRP2","[3]"
-"DBVPG1373","","Other","Netherlands","Restricted","Wine","SGRP2","[3]"
-"DBVPG1788","","Other","Finland","Restricted","Wine","SGRP2","[3]"
-"DBVPG6044","Y5, NRRL Y-1546, CBS405","Wine","West Africa","Restricted","West Africa","SGRP2","[3]"
-"DBVPG6765","","Other","Unknown","Restricted","Wine","SGRP2","[3]"
-"EC1118","Prise de Mousse, 59A","Other fermentation","France","Restricted","Wine","PRJEA37863","[8]"
-"EC9","","Other","Israel","Large","Mosaic","PRJNA73985","[6]"
-"EXF6719","","Wine","Slovenia","Restricted","Wine","PRJEB7601","This study"
-"EXF6761","","Oak","Slovenia","Restricted","Wine","PRJEB7601","This study"
-"EXF6780","","Oak","Slovenia","Large","Mosaic","PRJEB7601","This study"
-"EXF7145","","Oak","Serbia","Large","Mosaic","SRP059414","This study"
-"EXF7179","","Oak","Montenegro","Restricted","Mediterranean oak","SRP059414","This study"
-"EXF7200","","Oak","Montenegro","Restricted","Mediterranean oak","SRP059414","This study"
-"FGXd","","Other tree","Greece","Restricted","Mediterranean oak","SRP059414","This study"
-"FostersB","","Other fermentation","Unknown","Restricted","Beer","PRJNA48569","[5]"
-"FostersO","","Other fermentation","Unknown","Restricted","Beer","PRJNA48567","[5]"
-"HUN9","DBS14","Oak","Hungary ","Restricted","Mediterranean oak","PRJEB7601","This study"
-"I14","","Fruit","Italy","Large","Mosaic","PRJNA60149",""
-"IOC9002","","Wine","Unknown","Restricted","Wine","SRP059414","This study"
-"JAY291","","Other fermentation","Unknown","Large","Mosaic","PRJNA32809","[2]"
-"Kyokai7","K7","Other fermentation","Japan","Restricted","Sake/Philippines","PRJNA45827","[1]"
-"L1374","","Wine","Chile","Restricted","Wine","SGRP2","[3]"
-"L1528","","Wine","Chile","Restricted","Wine","SGRP2","[3]"
-"LalvinQA23","","Wine","Portugal","Restricted","Wine","PRJNA48561","[5]"
-"M22","","Fruit","Italy","Restricted","Wine","PRJNA28815","[7]"
-"MB7c","","Oak","France","Restricted","Mediterranean oak","SRP059414","This study"
-"OakArd11","","Oak","France","Large","Mosaic","PRJEB7675","This study"
-"OakBord21","","Oak","France","Large","Mosaic","PRJEB7675","This study"
-"OakGri7","","Oak","France","Large","Mosaic","PRJEB7675","This study"
-"OakRom3","","Oak","Romania","Restricted","Mediterranean oak","PRJEB7675","This study"
-"PW5","","Wine","Nigeria","Restricted","West Africa","PRJNA60181",""
-"PYR4b","PYR4b","Oak","Greece","Restricted","Mediterranean oak","PRJEB7601","This study"
-"PYR4e","","Oak","Greece","Restricted","Mediterranean oak","SRP059414","This study"
-"RM11","Bb32","Fruit","USA","Restricted","Wine","PRJNA13674",""
-"S288Cc","","Other","USA","Large","Mosaic","Reference",""
-"SDO2s1","","Oak","USA","Restricted","North America/Japan","PRJEB7601","This study"
-"SDO3s1","","Oak","USA","Restricted","North America/Japan","PRJEB7601","This study"
-"SDO6s1","","Oak","USA","Restricted","North America/Japan","PRJEB7601","This study"
-"SDO8s1","","Oak","USA","Restricted","North America/Japan","PRJEB7601","This study"
-"SK1","","Other","USA","Restricted","West Africa","SGRP2","[3]"
-"SM69s1","","Oak","USA","Restricted","North America/Japan","PRJEB7601","This study"
-"SON4c","","Other tree","Portugal","Large","Mosaic","SRP059414","This study"
-"Spar","","","","","","",""
-"T7","T7 Fay","Oak","USA","Restricted","North America/Japan","PRJNA60387",""
-"T73","","Wine","Spain","Large","Mosaic","PRJNA60195",""
-"UC5","UCD612","Other fermentation","Japan","Restricted","Sake/Philippines","PRJNA60197",""
-"UWOPS03461","","Other tree","Malaysia","Restricted","Malaysia","SGRP2","[3]"
-"UWOPS83787","","Fruit","Bahamas","Restricted","North America/Japan","SGRP2","[3]"
-"UWOPS872421","","Other tree","Hawaii","Large","Mosaic","SGRP2","[3]"
-"VELF","","Other tree","Greece","Restricted","Wine","SRP059414","This study"
-"VL3","B6","Wine","Unknown","Restricted","Wine","PRJNA48565","[5]"
-"Vin13","","Wine","Unknown","Restricted","Wine","PRJNA48563","[5]"
-"W303","","Other","Unknown","Large","Mosaic","SGRP2","[3]"
-"WE372","","Wine","South Africa","Restricted","Wine","PRJNA60199",""
-"Y10","NRRL Y-7567","Other plant material","Philippines","Large","Mosaic","PRJNA60201",""
-"Y12sgrp2","NRRL Y-12663, CBS400","Wine","Ivory Coast","Large","Mosaic","SGRP2","[3]"
-"Y55","YJM627 (seg. Y55)","Other","France","Large","Mosaic","SGRP2","[3]"
-"Y9combined","NRRL Y-5997","Other fermentation","Indonesia","Restricted","Sake/Philippines","WashU",""
-"YJM1242","NRRL Y-35","Fruit","USA","Restricted","Wine","PRJNA189886","[9]"
-"YJM1248","NRRL Y-1546","Wine","West Africa","Restricted","West Africa","PRJNA189888","[9]"
-"YJM1273","YPS134","Oak","USA","Restricted","North America/Japan","PRJNA189891","[9]"
-"YJM1332","M1-2","Wine","Italy","Restricted","Wine","PRJNA189896","[9]"
-"YJM1336","M28s2","Wine","Italy","Restricted","Wine","PRJNA189897","[9]"
-"YJM1338","NRRL Y-963","Fruit","USA","Large","Mosaic","PRJNA189898","[9]"
-"YJM1341","NRRL Y-12637","Fruit","South Africa","Restricted","Wine","PRJNA189899","[9]"
-"YJM1342","NRRL Y-12638","Other","South Africa","Large","Mosaic","PRJNA189900","[9]"
-"YJM1381","NRRL YB-427","Other fermentation","Trinidad","Large","Mosaic","PRJNA189903","[9]"
-"YJM1383","NRRL Y-5511","Other plant material","Philippines","Large","Mosaic","PRJNA189904","[9]"
-"YJM1386","NRRL Y-11878","Other plant material","Jamaica","Large","Mosaic","PRJNA189906","[9]"
-"YJM1387","NRRL Y-12758","Wine","Japan","Large","Mosaic","PRJNA189907","[9]"
-"YJM1388","NRRL Y-12769","Other fermentation","Malaysia","Restricted","Sake/Philippines","PRJNA189908","[9]"
-"YJM1400","NRRL YB-4081","Fruit","Philippines","Restricted","Sake/Philippines","PRJNA189911","[9]"
-"YJM1401","NRRL YB-4082","Fruit","Philippines","Restricted","Sake/Philippines","PRJNA189912","[9]"
-"YJM1402","NRRL YB-4449","Fruit","Unknown","Restricted","North America/Japan","PRJNA189913","[9]"
-"YJM1415","NRRL Y-268","Wine","France","Restricted","Wine","PRJNA189914","[9]"
-"YJM1418","NRRL YB-4506","Oak","Asia","Large","Mosaic","PRJNA189916","[9]"
-"YJM1433","YIIc17-E5","Wine","France","Large","Mosaic","PRJNA189918","[9]"
-"YJM1434","YPS606","Oak","USA","Restricted","North America/Japan","PRJNA189919","[9]"
-"YJM1439","","Other fermentation","West Africa","Restricted","West Africa","PRJNA189920","[9]"
-"YJM1447","UWOPS05-227.2","Other tree","Malaysia","Restricted","Malaysia","PRJNA189923","[9]"
-"YJM1463","DBVPG1853","Other","Ethiopia","Large","Mosaic","PRJNA189926","[9]"
-"YJM1479","NRRL Y-6297","Wine","Philippines","Restricted","Sake/Philippines","PRJNA189929","[9]"
-"YJM1574","AWRI1775","Wine","Unknown","Restricted","Wine","PRJNA189934","[9]"
-"YJM195","NCYC762","Wine","Nigeria","Restricted","West Africa","PRJNA189849","[9]"
-"YJM269","","Other fermentation","Unknown","Large","Mosaic","PRJNA60389",""
-"YJM270","CBS2807","Wine","Slovenia","Restricted","Wine","PRJNA189852","[9]"
-"YJM271","CBS1782","Other fermentation","Unknown","Large","Mosaic","PRJNA189853","[9]"
-"YJM975","","Other","Italy","Restricted","Wine","SGRP2","[3]"
-"YJM978","","Other","Italy","Restricted","Wine","SGRP2","[3]"
-"YJSH1","","Other fermentation","China","Restricted","Sake/Philippines","PRJNA72403","[10]"
-"YPS1000","","Oak","USA","Restricted","YPS1000","SRP059414","This study"
-"YPS1009","","Oak","USA","Restricted","North America/Japan","PRJNA60223",""
-"YPS128","","Oak","USA","Restricted","North America/Japan","SGRP2","[3]"
-"YPS163","","Oak","USA","Restricted","North America/Japan","PRJNA28813","[7]"
-"ZP1008","","Oak","Portugal","Restricted","Mediterranean oak","SRP059414","This study"
-"ZP1041","","Fruit","Portugal","Restricted","Wine","SRP059414","This study"
-"ZP1050","","Oak","Portugal","Restricted","North America/Japan","PRJEB7675","This study"
-"ZP530","","Other tree","Portugal","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP541","","Other tree","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP560","","Oak","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP562","","Oak","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP563","","Other tree","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP565","","Other tree","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP568","","Oak","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP570","","Other tree","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP577","","Oak","Portugal","Restricted","Wine","PRJEB7601","This study"
-"ZP578","","Oak","Portugal","Restricted","Wine","PRJEB7601","This study"
-"ZP579","","Oak","Portugal","Restricted","Wine","PRJEB7601","This study"
-"ZP611","","Oak","Canada","Large","Mosaic","PRJEB7675","This study"
-"ZP633","","Oak","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP636","","Other tree","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP641","","Wine","Portugal","Restricted","Wine","PRJEB7601","This study"
-"ZP651","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP652","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP653","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP656","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP675","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP680","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP736","","Fruit","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP742","","Fruit","Portugal","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP779","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP780","","Oak","Japan","Restricted","North America/Japan","SRP059414","This study"
-"ZP781","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP785","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP786","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP793","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP796","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP817","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP823","","Oak","Japan","Restricted","North America/Japan","PRJEB7601","This study"
-"ZP848","","Oak","Portugal","Restricted","Mediterranean oak","PRJEB7675","This study"
-"ZP850","","Oak","Spain","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP851","","Oak","Spain","Restricted","Mediterranean oak","PRJEB7675","This study"
-"ZP860","","Oak","Spain","Restricted","Mediterranean oak","PRJEB7601","This study"
-"ZP861","","Fruit","Portugal","Restricted","Wine","PRJEB7601","This study"
-"ZP862","","Fruit","Portugal","Restricted","Wine","PRJEB7601","This study"
-"sacCer3","","","","","","",""
+Strain,Other_designations,Substrate_of_isolation,Geographic_location,Dataset,Phylogeny,Genome_data,Reference
+3-10,,Oak,Italy,Restricted,Mediterranean oak,PRJEB7601,This study
+AN1f2,AN1f2,Other tree,Greece,Large,Mosaic,PRJEB7601,This study
+AN1g2,AN1g2,Other tree,Greece,Large,Mosaic,PRJEB7601,This study
+AN3e1,AN3e1,Other tree,Greece,Large,Mosaic,PRJEB7601,This study
+AWRI1631,N96,Wine,Australia,Restricted,Wine,PRJNA30553,[4]
+AWRI796,Active Dry Wine Yeast,Wine,South Africa,Restricted,Wine,PRJNA48559,[5]
+BC187,"UC10, UCD2120",Other fermentation,USA,Restricted,Wine,SGRP2,[3]
+CBS7960,DBVPG7960,Other fermentation,Brazil,Restricted,Wine,PRJNA60391,
+CLIB215,,Other,New Zealand,Restricted,Wine,PRJNA60143,
+CLIB324,,Other,Vietnam,Large,Mosaic,PRJNA60415,
+DAV1e,,Oak,UK,Restricted,Wine,SRP059414,This study
+DBVPG1106,NCYC3447,Fruit,Australia,Restricted,Wine,SGRP2,[3]
+DBVPG1373,,Other,Netherlands,Restricted,Wine,SGRP2,[3]
+DBVPG1788,,Other,Finland,Restricted,Wine,SGRP2,[3]
+DBVPG6044,"Y5, NRRL Y-1546, CBS405",Wine,West Africa,Restricted,West Africa,SGRP2,[3]
+DBVPG6765,,Other,Unknown,Restricted,Wine,SGRP2,[3]
+EC1118,"Prise de Mousse, 59A",Other fermentation,France,Restricted,Wine,PRJEA37863,[8]
+EC9,,Other,Israel,Large,Mosaic,PRJNA73985,[6]
+EXF6719,,Wine,Slovenia,Restricted,Wine,PRJEB7601,This study
+EXF6761,,Oak,Slovenia,Restricted,Wine,PRJEB7601,This study
+EXF6780,,Oak,Slovenia,Large,Mosaic,PRJEB7601,This study
+EXF7145,,Oak,Serbia,Large,Mosaic,SRP059414,This study
+EXF7179,,Oak,Montenegro,Restricted,Mediterranean oak,SRP059414,This study
+EXF7200,,Oak,Montenegro,Restricted,Mediterranean oak,SRP059414,This study
+FGXd,,Other tree,Greece,Restricted,Mediterranean oak,SRP059414,This study
+FostersB,,Other fermentation,Unknown,Restricted,Beer,PRJNA48569,[5]
+FostersO,,Other fermentation,Unknown,Restricted,Beer,PRJNA48567,[5]
+HUN9,DBS14,Oak,Hungary ,Restricted,Mediterranean oak,PRJEB7601,This study
+I14,,Fruit,Italy,Large,Mosaic,PRJNA60149,
+IOC9002,,Wine,Unknown,Restricted,Wine,SRP059414,This study
+JAY291,,Other fermentation,Unknown,Large,Mosaic,PRJNA32809,[2]
+Kyokai7,K7,Other fermentation,Japan,Restricted,Sake/Philippines,PRJNA45827,[1]
+L1374,,Wine,Chile,Restricted,Wine,SGRP2,[3]
+L1528,,Wine,Chile,Restricted,Wine,SGRP2,[3]
+LalvinQA23,,Wine,Portugal,Restricted,Wine,PRJNA48561,[5]
+M22,,Fruit,Italy,Restricted,Wine,PRJNA28815,[7]
+MB7c,,Oak,France,Restricted,Mediterranean oak,SRP059414,This study
+OakArd11,,Oak,France,Large,Mosaic,PRJEB7675,This study
+OakBord21,,Oak,France,Large,Mosaic,PRJEB7675,This study
+OakGri7,,Oak,France,Large,Mosaic,PRJEB7675,This study
+OakRom3,,Oak,Romania,Restricted,Mediterranean oak,PRJEB7675,This study
+PW5,,Wine,Nigeria,Restricted,West Africa,PRJNA60181,
+PYR4b,PYR4b,Oak,Greece,Restricted,Mediterranean oak,PRJEB7601,This study
+PYR4e,,Oak,Greece,Restricted,Mediterranean oak,SRP059414,This study
+RM11,Bb32,Fruit,USA,Restricted,Wine,PRJNA13674,
+S288Cc,,Other,USA,Large,Mosaic,Reference,
+SDO2s1,,Oak,USA,Restricted,North America/Japan,PRJEB7601,This study
+SDO3s1,,Oak,USA,Restricted,North America/Japan,PRJEB7601,This study
+SDO6s1,,Oak,USA,Restricted,North America/Japan,PRJEB7601,This study
+SDO8s1,,Oak,USA,Restricted,North America/Japan,PRJEB7601,This study
+SK1,,Other,USA,Restricted,West Africa,SGRP2,[3]
+SM69s1,,Oak,USA,Restricted,North America/Japan,PRJEB7601,This study
+SON4c,,Other tree,Portugal,Large,Mosaic,SRP059414,This study
+Spar,,,,,,,
+T7,T7 Fay,Oak,USA,Restricted,North America/Japan,PRJNA60387,
+T73,,Wine,Spain,Large,Mosaic,PRJNA60195,
+UC5,UCD612,Other fermentation,Japan,Restricted,Sake/Philippines,PRJNA60197,
+UWOPS03461,,Other tree,Malaysia,Restricted,Malaysia,SGRP2,[3]
+UWOPS83787,,Fruit,Bahamas,Restricted,North America/Japan,SGRP2,[3]
+UWOPS872421,,Other tree,Hawaii,Large,Mosaic,SGRP2,[3]
+VELF,,Other tree,Greece,Restricted,Wine,SRP059414,This study
+VL3,B6,Wine,Unknown,Restricted,Wine,PRJNA48565,[5]
+Vin13,,Wine,Unknown,Restricted,Wine,PRJNA48563,[5]
+W303,,Other,Unknown,Large,Mosaic,SGRP2,[3]
+WE372,,Wine,South Africa,Restricted,Wine,PRJNA60199,
+Y10,NRRL Y-7567,Other plant material,Philippines,Large,Mosaic,PRJNA60201,
+Y12sgrp2,"NRRL Y-12663, CBS400",Wine,Ivory Coast,Large,Mosaic,SGRP2,[3]
+Y55,YJM627 (seg. Y55),Other,France,Large,Mosaic,SGRP2,[3]
+Y9combined,NRRL Y-5997,Other fermentation,Indonesia,Restricted,Sake/Philippines,WashU,
+YJM1242,NRRL Y-35,Fruit,USA,Restricted,Wine,PRJNA189886,[9]
+YJM1248,NRRL Y-1546,Wine,West Africa,Restricted,West Africa,PRJNA189888,[9]
+YJM1273,YPS134,Oak,USA,Restricted,North America/Japan,PRJNA189891,[9]
+YJM1332,M1-2,Wine,Italy,Restricted,Wine,PRJNA189896,[9]
+YJM1336,M28s2,Wine,Italy,Restricted,Wine,PRJNA189897,[9]
+YJM1338,NRRL Y-963,Fruit,USA,Large,Mosaic,PRJNA189898,[9]
+YJM1341,NRRL Y-12637,Fruit,South Africa,Restricted,Wine,PRJNA189899,[9]
+YJM1342,NRRL Y-12638,Other,South Africa,Large,Mosaic,PRJNA189900,[9]
+YJM1381,NRRL YB-427,Other fermentation,Trinidad,Large,Mosaic,PRJNA189903,[9]
+YJM1383,NRRL Y-5511,Other plant material,Philippines,Large,Mosaic,PRJNA189904,[9]
+YJM1386,NRRL Y-11878,Other plant material,Jamaica,Large,Mosaic,PRJNA189906,[9]
+YJM1387,NRRL Y-12758,Wine,Japan,Large,Mosaic,PRJNA189907,[9]
+YJM1388,NRRL Y-12769,Other fermentation,Malaysia,Restricted,Sake/Philippines,PRJNA189908,[9]
+YJM1400,NRRL YB-4081,Fruit,Philippines,Restricted,Sake/Philippines,PRJNA189911,[9]
+YJM1401,NRRL YB-4082,Fruit,Philippines,Restricted,Sake/Philippines,PRJNA189912,[9]
+YJM1402,NRRL YB-4449,Fruit,Unknown,Restricted,North America/Japan,PRJNA189913,[9]
+YJM1415,NRRL Y-268,Wine,France,Restricted,Wine,PRJNA189914,[9]
+YJM1418,NRRL YB-4506,Oak,Asia,Large,Mosaic,PRJNA189916,[9]
+YJM1433,YIIc17-E5,Wine,France,Large,Mosaic,PRJNA189918,[9]
+YJM1434,YPS606,Oak,USA,Restricted,North America/Japan,PRJNA189919,[9]
+YJM1439,,Other fermentation,West Africa,Restricted,West Africa,PRJNA189920,[9]
+YJM1447,UWOPS05-227.2,Other tree,Malaysia,Restricted,Malaysia,PRJNA189923,[9]
+YJM1463,DBVPG1853,Other,Ethiopia,Large,Mosaic,PRJNA189926,[9]
+YJM1479,NRRL Y-6297,Wine,Philippines,Restricted,Sake/Philippines,PRJNA189929,[9]
+YJM1574,AWRI1775,Wine,Unknown,Restricted,Wine,PRJNA189934,[9]
+YJM195,NCYC762,Wine,Nigeria,Restricted,West Africa,PRJNA189849,[9]
+YJM269,,Other fermentation,Unknown,Large,Mosaic,PRJNA60389,
+YJM270,CBS2807,Wine,Slovenia,Restricted,Wine,PRJNA189852,[9]
+YJM271,CBS1782,Other fermentation,Unknown,Large,Mosaic,PRJNA189853,[9]
+YJM975,,Other,Italy,Restricted,Wine,SGRP2,[3]
+YJM978,,Other,Italy,Restricted,Wine,SGRP2,[3]
+YJSH1,,Other fermentation,China,Restricted,Sake/Philippines,PRJNA72403,[10]
+YPS1000,,Oak,USA,Restricted,YPS1000,SRP059414,This study
+YPS1009,,Oak,USA,Restricted,North America/Japan,PRJNA60223,
+YPS128,,Oak,USA,Restricted,North America/Japan,SGRP2,[3]
+YPS163,,Oak,USA,Restricted,North America/Japan,PRJNA28813,[7]
+ZP1008,,Oak,Portugal,Restricted,Mediterranean oak,SRP059414,This study
+ZP1041,,Fruit,Portugal,Restricted,Wine,SRP059414,This study
+ZP1050,,Oak,Portugal,Restricted,North America/Japan,PRJEB7675,This study
+ZP530,,Other tree,Portugal,Restricted,North America/Japan,PRJEB7601,This study
+ZP541,,Other tree,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP560,,Oak,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP562,,Oak,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP563,,Other tree,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP565,,Other tree,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP568,,Oak,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP570,,Other tree,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP577,,Oak,Portugal,Restricted,Wine,PRJEB7601,This study
+ZP578,,Oak,Portugal,Restricted,Wine,PRJEB7601,This study
+ZP579,,Oak,Portugal,Restricted,Wine,PRJEB7601,This study
+ZP611,,Oak,Canada,Large,Mosaic,PRJEB7675,This study
+ZP633,,Oak,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP636,,Other tree,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP641,,Wine,Portugal,Restricted,Wine,PRJEB7601,This study
+ZP651,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP652,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP653,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP656,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP675,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP680,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP736,,Fruit,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP742,,Fruit,Portugal,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP779,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP780,,Oak,Japan,Restricted,North America/Japan,SRP059414,This study
+ZP781,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP785,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP786,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP793,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP796,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP817,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP823,,Oak,Japan,Restricted,North America/Japan,PRJEB7601,This study
+ZP848,,Oak,Portugal,Restricted,Mediterranean oak,PRJEB7675,This study
+ZP850,,Oak,Spain,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP851,,Oak,Spain,Restricted,Mediterranean oak,PRJEB7675,This study
+ZP860,,Oak,Spain,Restricted,Mediterranean oak,PRJEB7601,This study
+ZP861,,Fruit,Portugal,Restricted,Wine,PRJEB7601,This study
+ZP862,,Fruit,Portugal,Restricted,Wine,PRJEB7601,This study
+sacCer3,,Unknown,Unknown,,,,
