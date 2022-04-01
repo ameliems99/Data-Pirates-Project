@@ -148,7 +148,9 @@ PCA = prcomp(PCA_table)
 
 colour_code = strain_info$Phylogeny
 
-qplot(PCA$x[,1], PCA$x[,2], colour = colour_code, main = "PCA of the SNP") +
+qplot(PCA$x[,1], PCA$x[,2], colour = colour_code, 
+  main = "Genetic distance of yeast strains based on SNPs"
+  ) +
   xlab("PC 1") +
   ylab("PC 2") +
   scale_color_discrete("phylogeny") +
@@ -164,7 +166,7 @@ qplot(PCA$x[,1], PCA$x[,2], colour = colour_code, main = "PCA of the SNP") +
 qplot(PCA$x[,1], 
       PCA$x[,3], 
       colour = colour_code, 
-      main = "PCA of the SNP",
+      main = "Genetic distance of yeast strains based on SNPs",
       shape =(PCA$x[,2]<=(-20))) +
   
   xlab("PC 1") +
@@ -180,7 +182,7 @@ colour_code = strain_info$Substrate_of_isolation
 qplot(PCA$x[,1],
       PCA$x[,3], 
       colour = colour_code, 
-      main = "PCA of the SNP",
+      main = "Genetic distance of yeast strains isolated from different substrate",
       shape =(PCA$x[,2]<=(-20))) +
   
   xlab("PC 1") +
@@ -196,19 +198,18 @@ colour_code = strain_info$Geographic_location
 qplot(PCA$x[,1], 
       PCA$x[,3], 
       colour = colour_code, 
-      main = "PCA of the SNP",
-      shape =(PCA$x[,2]<=(-20))) +
+      main = "Genetic distance of yeast strains isolated 
+      from different geographic location") + 
   
   xlab("PC 1") +
   ylab("PC 3") +
   scale_color_discrete("Location") +
-  scale_shape_discrete("very negative PC2") +
   theme_bw()
 
 #-------------------------------------------------------------------------------
 # with the squared standard deviations we make a Scree Plot, only with the first 
-# 10 bcs otherwise there are too many values and it's unreadable
-qplot(x=c(1:10),y=PCA$sdev[1:10]^2, main = "Scree Plot") +
+# 25 bcs otherwise there are too many values and it's unreadable
+qplot(x=c(1:25),y=PCA$sdev[1:25]^2, main = "Scree Plot", ylim = c(0, 200)) +
   geom_line() +
   xlab("Component") +
   ylab("Eigenvalue")
