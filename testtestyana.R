@@ -23,8 +23,8 @@ Dist<- vegdist(DataDM,method="bray",binary=F)
 set.seed(20)
 NMDSdat<-metaMDS(Dist,k=2,trymax = 100)
 DataNM<-data.frame(NMDS1=NMDSdat$points[,1],
-                 NMDS2=NMDSdat$points[,2])
-DataNM<-merge(DataNM,Info,all.x=T,all.y=F)
-qplot(x=NMDS1,y=NMDS2,colour=Geographic_location,data=DataNM)+theme_bw()
-
+                 NMDS2=NMDSdat$points[,2],
+                 SampleID=row.names(DataDMmat))
+DataNM<-merge(DataNM,Info,by.x="SampleID",by.y="Strain",all.x=T,all.y=F)
+qplot(x=NMDS1,y=NMDS2,colour=Geographic_location.y,data=DataNM,alpha=I(0.4))+theme_bw()
 
