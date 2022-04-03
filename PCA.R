@@ -147,7 +147,7 @@ PCA = prcomp(PCA_table)
 # believe is a mix between the geographical location and substrate of isolation,
 # based on what was the most important)
 
-
+png("./images/PCA_plot_phylogeny1.png", width = 650)
 colour_code = strain_info$Phylogeny
 
 qplot(PCA$x[,1], PCA$x[,2], colour = colour_code, 
@@ -157,14 +157,14 @@ qplot(PCA$x[,1], PCA$x[,2], colour = colour_code,
   ylab("PC 2") +
   scale_color_discrete("phylogeny") +
   theme_bw()
-
+dev.off()
 
 # Though the data is nicely spread along the PC1, most of the data is on the 
 # axis for the PC2, except for West African strains. The way the PC2 is spread 
 # is not optimal to read the graph.
 # Here I did again the exact same graph but with PC1 and PC3. 
 
-
+png("./images/PCA_plot_phylogeny2.png", width = 650)
 qplot(PCA$x[,1], 
       PCA$x[,3], 
       colour = colour_code, 
@@ -176,11 +176,13 @@ qplot(PCA$x[,1],
   scale_color_discrete("phylogeny") +
   scale_shape_discrete("very negative PC2") +
   theme_bw()
+dev.off()
 #-------------------------------------------------------------------------------
 
 # we can also change the colour code according to substrate of isolation:
 colour_code = strain_info$Substrate_of_isolation
 
+png("./images/PCA_plot_substrate.png", width = 650)
 qplot(PCA$x[,1],
       PCA$x[,3], 
       colour = colour_code, 
@@ -192,11 +194,13 @@ qplot(PCA$x[,1],
   scale_color_discrete("substrate of isolation") +
   scale_shape_discrete("very low PC2") +
   theme_bw()
+dev.off()
 
 # Or according to the geographic location
 
 colour_code = strain_info$Geographic_region
 
+png("./images/PCA_plot_region.png", width = 650)
 qplot(PCA$x[,1], 
       PCA$x[,3], 
       colour = colour_code, 
@@ -204,22 +208,23 @@ qplot(PCA$x[,1],
       from different geographic location",
       shape =(PCA$x[,2]<=(-20))) + 
   
-  
-  
   xlab("PC 1") +
   ylab("PC 3") +
   scale_color_discrete("Location") +
   scale_shape_discrete("very low PC2") +
   theme_bw()
+dev.off()
 
 #-------------------------------------------------------------------------------
 # with the squared standard deviations we make a Scree Plot
 
+png("./images/PCA_Scree_plot.png")
 qplot(x=c(1:145),y=PCA$sdev[1:145]^2, main = "Scree Plot", ylim = c(0, 200)) +
   geom_line() +
   xlab("Component") +
   ylab("Eigenvalue") +
   theme_bw()
+dev.off()
 # the  3 first PCs captures the majority of the information, but all the other 
 # components together hold a significant part of the information. The PCA plots 
 #may miss some information 
