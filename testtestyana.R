@@ -26,5 +26,13 @@ DataNM<-data.frame(NMDS1=NMDSdat$points[,1],
                  NMDS2=NMDSdat$points[,2],
                  SampleID=row.names(DataDMmat))
 DataNM<-merge(DataNM,Info,by.x="SampleID",by.y="Strain",all.x=T,all.y=F)
-qplot(x=NMDS1,y=NMDS2,colour=Geographic_location.y,data=DataNM,alpha=I(0.4))+theme_bw()
+
+library(countrycode)
+DataNM$Continent <- countrycode(sourcevar = DataNM[, "Geographic_location.y"],
+                            origin = "country.name",
+                            destination = "region",
+                            nomatch = NULL,
+                            custom_match = c('Asia' = 'East Asia & Pacific','Hawaii'='North America','West Africa'='Sub-Saharan Africa'))
+qplot(x=NMDS1,y=NMDS2,colour=Continent,data=DataNM,alpha=I(0.4))+theme_bw()
+
 
