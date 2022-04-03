@@ -95,7 +95,7 @@ for (i in 1:147) {
   BinSNP[as.vector(which(SNP[,i] != MFSeq)),i] = 1
 }
 
-# Now We have a dataframe that look like this 
+# Now We have a dataframe called BinSNP that looks like this :
 #
 # 0 0 0
 # 0 0 0
@@ -106,9 +106,9 @@ for (i in 1:147) {
 # 0 0 1
 # 0 1 0
 # 
-# because R doesn't like when column are missing, so I inverted the rows and
+# because R doesn't like when column are missing, I inverted the rows and
 # columns.
-# However, to Perform a PCA we need the the strains as rows and the nucleotides 
+# However, to Perform a PCA we need the strains as rows and the nucleotides 
 # as column so we transpose the data frame. 
 
 PCA_table = t(BinSNP)
@@ -120,8 +120,8 @@ PCA_table = t(BinSNP)
 
 
 #-------------------------------------------------------------------------------
-#We import strain info from the ordered file: the order of the strain in that  
-# file is the same as the in sequence file
+# We import strain info from the ordered file: the order of the strain in that  
+# file is the same as in the sequence file
 
 strain_info = read.csv("ordered_strain_info.csv")
 
@@ -134,8 +134,8 @@ strain_info = strain_info[c(1:53,55:146),]
 
 #-------------------------------------------------------------------------------
 # Because we have more nucleotides than samples, it is not possible to use 
-# princomp We use prcomp, which is essentially the same thing: the calculation 
-# methode is not the same but the result are often very similar
+# princomp. We use prcomp, which is essentially the same thing: the calculation 
+# method is not the same but the results are often very similar
 
 # we calculate the principal components
 PCA = prcomp(PCA_table)
@@ -143,7 +143,9 @@ PCA = prcomp(PCA_table)
 
 
 
-# and we plot nice graphs with an appropriate colour code!
+# and we plot nice graphs with a color code based on 'phylogeny' (which I 
+# believe is a mix between the geographical location and substrate of isolation,
+# based on what was the most important)
 
 
 colour_code = strain_info$Phylogeny
@@ -158,7 +160,7 @@ qplot(PCA$x[,1], PCA$x[,2], colour = colour_code,
 
 
 # Though the data is nicely spread along the PC1, most of the data is on the 
-# axis for the PC2, except for West african strains. The way the PC2 is spread 
+# axis for the PC2, except for West African strains. The way the PC2 is spread 
 # is not optimal to read the graph.
 # Here I did again the exact same graph but with PC1 and PC3. 
 
@@ -193,23 +195,31 @@ qplot(PCA$x[,1],
 
 # Or according to the geographic location
 
-colour_code = strain_info$Geographic_location
+colour_code = strain_info$Geographic_region
 
 qplot(PCA$x[,1], 
       PCA$x[,3], 
       colour = colour_code, 
       main = "Genetic distance of yeast strains isolated 
-      from different geographic location") + 
+      from different geographic location",
+      shape =(PCA$x[,2]<=(-20))) + 
+  
+  
   
   xlab("PC 1") +
   ylab("PC 3") +
   scale_color_discrete("Location") +
+  scale_shape_discrete("very low PC2") +
   theme_bw()
 
 #-------------------------------------------------------------------------------
-# with the squared standard deviations we make a Scree Plot, only with the first 
-# 25 bcs otherwise there are too many values and it's unreadable
-qplot(x=c(1:25),y=PCA$sdev[1:25]^2, main = "Scree Plot", ylim = c(0, 200)) +
+# with the squared standard deviations we make a Scree Plot
+
+qplot(x=c(1:145),y=PCA$sdev[1:145]^2, main = "Scree Plot", ylim = c(0, 200)) +
   geom_line() +
   xlab("Component") +
-  ylab("Eigenvalue")
+  ylab("Eigenvalue") +
+  theme_bw()
+# the  3 first PCs captures the majority of the information, but all the other 
+# components together hold a significant part of the information. The PCA plots 
+#may miss some information 
