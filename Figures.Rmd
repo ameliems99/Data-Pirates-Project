@@ -1,4 +1,4 @@
----
+  ---
 title: "Figures"
 output: html_document
 ---
@@ -88,7 +88,38 @@ Info <- read.csv("./ordered_strain_info.csv")
 Info <- Info[!Info$Strain == "Spar",]
 
 ggtree(Tree, branch.length = 'none', layout = "circular") %<+% Info + 
-  geom_tiplab(aes(colour = Substrate_of_isolation))
+  geom_tiplab(aes(colour = Substrate_of_isolation)) 
+```
+```{r}
+Info <- read.csv("./ordered_strain_info.csv")
+Info <- Info[!Info$Strain == "Spar",]
+
+ggtree(Tree, branch.length = 'none', layout = "circular") %<+% Info + 
+  geom_tree(aes(colour = Substrate_of_isolation)) + 
+  labs(title = "Phylogeny of Yeast Strains", colour = "Substrate of Isolation") 
+```
+```{r}
+ggtree(Tree, branch.length = 'none', layout = "circular") %<+% Info + 
+  geom_tree(aes(colour = Geographic_location)) + 
+  labs(title = "Phylogeny of Yeast Strains", colour = "Geographic Location") 
+```
+
+```{r}
+ggtree(Tree, branch.length = 'none', layout = "circular") %<+% Info + 
+  geom_tree(aes(colour = Phylogeny)) + 
+  labs(title = "Phylogeny of Yeast Strains", colour = "Phylogeny") + 
+  geom_tiplab()
+```
+```{r}
+ggtree(Tree, branch.length = 'none', layout = "circular") %<+% Info + 
+  geom_tree(aes(colour = Genome_data)) + 
+  labs(title = "Phylogeny of Yeast Strains", colour = "Genome Data") 
+```
+```{r}
+ggtree(Tree, branch.length = 'none', layout = "circular") %<+% Info + 
+  geom_tree(aes(colour = Dataset)) + 
+  labs(title = "Phylogeny of Yeast Strains", colour = "Dataset") + 
+  geom_tiplab()
 ```
 
 
