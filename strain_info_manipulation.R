@@ -1,11 +1,12 @@
-# The purpose of this code is to output a nice csv file with 
-#the name of strain, their position in the concatenated sequence.csv
+# The purpose of this code is to output a nice csv file with strains organized
+# in the same order than in the alignment file.
+# we also want to regroup locations by countries and by regions. 
 
 #-------------------------------------------------------------------------------
 
 
 
-library(seqinr) # allows to access read.fasta // you probably have to install it first
+library(seqinr) # allows to access read.fasta // you may have to install it first
 
 
 # we read a short csv file and we get the names of the strains for which we have SNPs 
@@ -22,7 +23,7 @@ Info = data.frame()
 
 
 for ( i in 1:length(all_strains)) { # for every strain in the SNPs files...
-  Info[i,1:8] = Data[(Data$Strain == all_strains[i]),] #we add a row t Data2 containing the corresponding info for the strain
+  Info[i,1:8] = Data[(Data$Strain == all_strains[i]),] #we add the row of Data containing the corresponding info for the strain
 }
 
 
@@ -52,6 +53,19 @@ Info$Geographic_location <- gsub(".*(South Africa)", "\\1", Info$Geographic_loca
 Info$Geographic_location <- gsub(".*(UK)", "\\1", Info$Geographic_location) 
 Info$Geographic_location <- gsub(".*(France)", "\\1", Info$Geographic_location) 
 Info$Geographic_location <- gsub("(Asia).*", "\\1", Info$Geographic_location)
+
+#group data by continent/ broad regions
+
+Info$Geographic_region = Info$Geographic_location
+Info$Geographic_region = gsub("West Africa|Nigeria|Ethiopia", "Africa (West)", Info$Geographic_region)
+Info$Geographic_region = gsub("USA|Canada", "America (North)", Info$Geographic_region)
+Info$Geographic_region = gsub("(France|Greece|Israel|Italy|Montenegro|Portugal|Spain|Finland|Hungary|Netherlands|Romania|Serbia|Slovenia|UK).*", "Europe and Mediterranea", Info$Geographic_region)
+Info$Geographic_region = gsub("(Australia|New Zealand)", "Oceania", Info$Geographic_region)
+Info$Geographic_region = gsub("(Indonesia|Malaysia|Philippines|Vietnam|Asia|China)", "Asia (south-east)", Info$Geographic_region)
+Info$Geographic_region = gsub("(Bahamas|Jamaica|Brazil|Chile|Trinidad)", "America (south and central)", Info$Geographic_region)
+Info$Geographic_region = gsub("Unknown|Hawaii", "other", Info$Geographic_region)
+Info$Geographic_region = gsub("Japan", "Asia (Japan)", Info$Geographic_region)
+Info$Geographic_region = gsub("Ivory Coast|South Africa", "Africa", Info$Geographic_region)
 
 
 # We output the data in the following file:
