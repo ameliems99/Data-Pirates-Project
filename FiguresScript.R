@@ -41,6 +41,18 @@ Info$Geographic_location <- gsub(".*(UK)", "\\1", Info$Geographic_location)
 Info$Geographic_location <- gsub(".*(France)", "\\1", Info$Geographic_location) 
 Info$Geographic_location <- gsub("(Asia).*", "\\1", Info$Geographic_location)
 
+#group data by continent/ broad regions
+
+Info$Geographic_region = Info$Geographic_location
+Info$Geographic_region = gsub("West Africa|Nigeria|Ethiopia", "Africa (West)", Info$Geographic_region)
+Info$Geographic_region = gsub("USA|Canada", "America (North)", Info$Geographic_region)
+Info$Geographic_region = gsub("(France|Greece|Israel|Italy|Montenegro|Portugal|Spain|Finland|Hungary|Netherlands|Romania|Serbia|Slovenia|UK).*", "Europe and Mediterranea", Info$Geographic_region)
+Info$Geographic_region = gsub("(Australia|New Zealand)", "Oceania", Info$Geographic_region)
+Info$Geographic_region = gsub("(Indonesia|Malaysia|Philippines|Vietnam|Asia|China)", "Asia (south-east)", Info$Geographic_region)
+Info$Geographic_region = gsub("(Bahamas|Jamaica|Brazil|Chile|Trinidad)", "America (south and central)", Info$Geographic_region)
+Info$Geographic_region = gsub("Unknown|Hawaii", "other", Info$Geographic_region)
+Info$Geographic_region = gsub("Japan", "Asia (Japan)", Info$Geographic_region)
+Info$Geographic_region = gsub("Ivory Coast|South Africa", "Africa", Info$Geographic_region)
 
 # We output the data in the following file:
 write.csv(Info, "ordered_strain_info.csv", row.names = FALSE)
@@ -127,14 +139,15 @@ dev.off()
 library(vegan)
 library(countrycode)
 
-Dist<- vegdist(DataDM, method="bray", binary=FALSE)
+Dist<- vegdist(DataDM, method="bray", binary=FALSE)  #compute bray curtis dissimilarity
 set.seed(20)
-NMDSdat<-metaMDS(Dist,k=2,trymax = 100)
-DataNM<-data.frame(NMDS1=NMDSdat$points[,1],
+NMDSdat<-metaMDS(Dist, k=2,trymax = 100)
+DataNM<-data.frame(NMDS1=NMDSdat$points[,1],  #create a data frame with NMDS axes
                    NMDS2=NMDSdat$points[,2],
                    SampleID=row.names(DataDMmat))
-DataNM<-merge(DataNM,Info,by.x="SampleID",by.y="Strain",all.x=T,all.y=F)
+DataNM<-merge(DataNM,Info,by.x="SampleID",by.y="Strain",all.x=T,all.y=F)  #merge NMDS axes with strain info
 
+#merge the countries into continents
 DataNM$Continent <- countrycode(sourcevar = DataNM[, "Geographic_location"],
                                 origin = "country.name",
                                 destination = "region",
@@ -142,9 +155,13 @@ DataNM$Continent <- countrycode(sourcevar = DataNM[, "Geographic_location"],
                                 custom_match = c('Asia' = 'East Asia & Pacific','Hawaii'='North America','West Africa'='Sub-Saharan Africa'))
 
 png("./images/NMDS_Continent.png")
-  qplot(x=NMDS1,y=NMDS2,colour=Continent,data=DataNM,alpha=I(0.4))+theme_bw()
+  qplot(x=NMDS1,y=NMDS2,colour=Continent,data=DataNM,alpha=I(0.4))+theme_bw()  #colour by continet
 dev.off()
 
 png("./images/NMDS_substrate.png")
-  qplot(x=NMDS1,y=NMDS2,colour=Substrate_of_isolation,data=DataNM,alpha=I(0.4))+theme_bw()
+  qplot(x=NMDS1,y=NMDS2,colour=Substrate_of_isolation,data=DataNM,alpha=I(0.4))+theme_bw()  #colour by substrate
+dev.off()
+
+png("./images/NMDS_Region.png")
+  qplot(x=NMDS1,y=NMDS2,colour=Geographic_region,data=DataNM,alpha=I(0.4))+theme_bw()  #colour by broad geographic region
 dev.off()
