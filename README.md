@@ -1,5 +1,5 @@
 # Data-Pirates-Project
-Here, we plan to analyze the sequences of 146 yeast strains to determine the evolutionary relationship among yeast species used in wine domestication. We will mainly focus on the following questions:  
+Here, we plan to analyze the sequences of 146 yeast strains to determine the evolutionary relationship among yeast species used in wine domestication. The data we analyzed are archived on [Dryad](https://datadryad.org/stash/dataset/doi:10.5061%2Fdryad.hm2jf), but the relevant files are also available in this Github repository. We will focus on the following questions:  
 1) Are wine yeast species that come from close geographic locations more closely genetically related?   
 2) Does the oak niche show geographical limitation?   
 3) What are the evolutionary relationships between the different strains of wine yeast?   
