@@ -41,4 +41,6 @@ Required R packages to install before running scripts:
  - ggtree    
  - vegan    
  - countrycode   
- - seqinr    
+ - seqinr      
+      
+To run the analysis, we recommend downloading all of the above files. "ConcatenateScript.R" can be run through a remote server by submitting it as a job with the "Concatenate.sh" script in Unix. The "PCA.R" script must be run after "ConcatenateScript.R", but the "FiguresScript.R" script can be run in any order. Any output files will be rewritten. 
